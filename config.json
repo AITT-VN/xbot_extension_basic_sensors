@@ -1,0 +1,13 @@
+{
+    "name": "CẢM BIẾN",
+    "description": "Mục mở rộng sử dụng các module cảm biến đơn giản",
+    "libs": [
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}

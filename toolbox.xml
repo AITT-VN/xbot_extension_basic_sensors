@@ -1,0 +1,11 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="Cảm biến" colour="#7A91B7" icon="thermometer-quarter">
+          <block type="xbot_light_sensor_read" />
+          <block type="xbot_sound_sensor_read" />
+          <block type="xbot_bumper_pressed" />
+          <block type="xbot_moisture_sensor" />
+          <block type="xbot_touch_sensor" />
+          <block type="xbot_gas_sensor" />
+          <block type="xbot_pir_sensor" />
+  </category>
+</xml>
