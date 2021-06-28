@@ -1,6 +1,6 @@
 {
-    "name": "CẢM BIẾN",
-    "description": "Mục mở rộng sử dụng các module cảm biến đơn giản",
+    "name": "Cảm biến cơ bản",
+    "description": "Mục mở rộng của xbot cho các cảm biến cơ bản",
     "libs": [
     ],
     "blocks": [
