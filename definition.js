@@ -302,7 +302,7 @@ Blockly.Python["xbot_bumper_pressed"] = function (block) {
   var port = block.getFieldValue("port");
   var pin = block.getFieldValue("pin");
   // TODO: Assemble Python into code variable.
-  var code = "pin" + port + pin +".read_analog()";
+  var code = "pin" + port + pin +".read_digital()";
   return [code, Blockly.Python.ORDER_NONE];
 };
 
