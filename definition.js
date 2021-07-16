@@ -87,21 +87,20 @@ Blockly.Blocks["xbot_bumper_pressed"] = {
           type: "field_dropdown",
           name: "port",
           options: [
-            ["1", "0"],
-            ["2", "1"],
-            ["3", "2"],
-            ["4", "3"],
-            ["5", "4"],
-            ["6", "5"],
+            ["1", "1"],
+            ["2", "2"],
+            ["3", "3"],
+            ["4", "4"],
+            ["5", "5"],
+            ["6", "6"],
           ],
         },
         {
           type: "field_dropdown",
-          name: "index",
+          name: "pin",
           options: [
-            ["S1","0"],
-            ["S2","1"],
-            ["S1 hoặc S2","2"],
+            ["1","1"],
+            ["2","2"],
           ],
         },
         {
@@ -301,16 +300,9 @@ Blockly.Python["xbot_sound_sensor_read"] = function (block) {
 
 Blockly.Python["xbot_bumper_pressed"] = function (block) {
   var port = block.getFieldValue("port");
-  var index = block.getFieldValue("index");
+  var pin = block.getFieldValue("pin");
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_bumper'+ port] = "bumper_sensor_port" + port + " = Bumper("+ port +")";
-  var code;
-  if (index !=2){
-    code = "bumper_sensor_port" + port + ".is_pressed("+ index +")";
-  }
-  else {
-    code = "bumper_sensor_port" + port + ".is_pressed()";
-  }
+  var code = "pin" + port + pin +".read_analog()";
   return [code, Blockly.Python.ORDER_NONE];
 };
 
