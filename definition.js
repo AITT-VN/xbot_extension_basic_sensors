@@ -3,7 +3,7 @@ Blockly.Blocks["xbot_light_sensor_read"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 đọc cảm biến ánh sáng cổng %1 chân %2",
+      message0: "%3 đọc cảm biến ánh sáng cổng %1 pin %2",
       args0: [
         {
           type: "field_dropdown",
@@ -42,7 +42,7 @@ Blockly.Blocks["xbot_sound_sensor_read"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 đọc cảm biến âm thanh cổng %1 chân %2",
+      message0: "%3 đọc cảm biến âm thanh cổng %1 pin %2",
       args0: [
         {
           type: "field_dropdown",
@@ -123,7 +123,7 @@ Blockly.Blocks["xbot_moisture_sensor"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 đọc cảm biến đất cổng %1 chân %2",
+      message0: "%3 đọc cảm biến đất cổng %1 pin %2",
       args0: [
         {
           type: "field_dropdown",
@@ -162,7 +162,7 @@ Blockly.Blocks["xbot_touch_sensor"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 cảm biến chạm cổng %1 chân %2 được chạm",
+      message0: "%3 cảm biến chạm cổng %1 pin %2 được chạm",
       args0: [
         {
           type: "field_dropdown",
@@ -204,7 +204,7 @@ Blockly.Blocks["xbot_gas_sensor"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 đọc cảm biến gas cổng %1 chân %2",
+      message0: "%3 đọc cảm biến gas cổng %1 pin %2",
       args0: [
         {
           type: "field_dropdown",
@@ -243,7 +243,7 @@ Blockly.Blocks["xbot_pir_sensor"] = {
     this.jsonInit({
       colour: "#7A91B7",
       tooltip: "",
-      message0: "%3 cảm biến chuyển động cổng %1 chân %2 phát hiện",
+      message0: "%3 cảm biến chuyển động cổng %1 pin %2 phát hiện",
       args0: [
         {
           type: "field_dropdown",
