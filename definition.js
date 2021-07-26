@@ -1,7 +1,7 @@
 Blockly.Blocks["xbot_light_sensor_read"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 đọc cảm biến ánh sáng cổng %1 pin %2",
       args0: [
@@ -40,7 +40,7 @@ Blockly.Blocks["xbot_light_sensor_read"] = {
 Blockly.Blocks["xbot_sound_sensor_read"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 đọc cảm biến âm thanh cổng %1 pin %2",
       args0: [
@@ -79,7 +79,7 @@ Blockly.Blocks["xbot_sound_sensor_read"] = {
 Blockly.Blocks["xbot_bumper_pressed"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 cảm biến bumper cổng %1 phát hiện chạm ở %2",
       args0: [
@@ -121,7 +121,7 @@ Blockly.Blocks["xbot_bumper_pressed"] = {
 Blockly.Blocks["xbot_moisture_sensor"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 đọc cảm biến đất cổng %1 pin %2",
       args0: [
@@ -160,7 +160,7 @@ Blockly.Blocks["xbot_moisture_sensor"] = {
 Blockly.Blocks["xbot_touch_sensor"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 cảm biến chạm cổng %1 pin %2 được chạm",
       args0: [
@@ -202,7 +202,7 @@ Blockly.Blocks["xbot_touch_sensor"] = {
 Blockly.Blocks["xbot_gas_sensor"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 đọc cảm biến gas cổng %1 pin %2",
       args0: [
@@ -241,7 +241,7 @@ Blockly.Blocks["xbot_gas_sensor"] = {
 Blockly.Blocks["xbot_pir_sensor"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff3333",
+      colour: "#ae00ae",
       tooltip: "",
       message0: "%3 cảm biến chuyển động cổng %1 pin %2 phát hiện",
       args0: [
